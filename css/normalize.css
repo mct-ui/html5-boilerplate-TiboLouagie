@@ -547,7 +547,11 @@ figure {
 ul,
 ol,
 blockquote {
-
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: "Times New Roman", serif;
 
 }
 
@@ -556,12 +560,10 @@ li ol{
 
 }
 
-blockquote {
-  font-style: italic;
-  font-size: 23px;
-  line-height: 32px;
-  margin: 0 0 24px;
-  font-family: "Times New Roman", serif;
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
+
 
 }
 
